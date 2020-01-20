@@ -81,10 +81,19 @@ div img {
 #container-de-descricao {
     background-color: #2274a5;
     color: white;
+    
+}
+#conteudo-do-conteiner{
+    position:relative;
+    top: 150px;
+    display: inline-block;
+    max-width: 270px;
+    line-height: 1.8;
 }
 
 #container-de-descricao>ol {
     padding: 15px 0px;
+    
 }
 
 #container-para-comprar {
