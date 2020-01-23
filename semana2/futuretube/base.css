@@ -3,9 +3,21 @@
     margin: 0;
     width: 100%;
 }
+input{
+    display:flex;
+    width:100px;
+    float: right;
+    margin-right: 50px;
+    padding:7px;
+}
+a:link,a:visited ,a:hover ,a:active {
+    text-decoration: none;
+} 
+
 header{
     width: 100%;
     display: flex;
+    justify-content: space-between;
     background-color: chocolate;
     padding-bottom: 10px;
     padding-top: 10px; 
@@ -13,6 +25,7 @@ header{
     font-size: 30px;
 }
 .flexbox{
+    margin-top:50px;
     width: 100%;
     display: flex;    
     flex-wrap: wrap;
@@ -55,6 +68,10 @@ video{
 }
 
 @media only screen and (max-width: 600px){
+
+.flexbox{
+margin-bottom: 80px;
+}    
 
 #item{
 display: flex;    
